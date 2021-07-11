@@ -1,0 +1,9 @@
+Mã màu:
++ #666666
++ #ffaa6b
++ #000000
+
+Font family:
++ Roboto Regular
++ NoeDisplay Regular
++ NoeDisplay Bold

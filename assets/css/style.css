@@ -1,0 +1,325 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear:both
+}
+.left{
+    width: 50%;
+    padding-left: 13.5% ;
+    /* margin-bottom: 200px; */
+    float: left;
+}
+.right{
+    width: 50%;
+    padding-right:13.5% ;
+    /* margin-bottom: 200px; */
+
+    /* float: right; */
+    display: inline-block;
+}
+.header{
+    /* background-color: #ffffff; */
+    position:absolute;
+    top :0;
+    left: 0;
+    right: 0;
+}
+
+.nav > li {
+    display: inline-block;
+}
+.header a{
+    text-decoration-line: none;
+    color: #858585;
+}
+
+#logo{
+    color: white;
+    background-color: black;
+    font-size: 60px;
+    font-family: NoeDisplay Bold;
+    font-weight: bolder;
+    padding: 10px 0 0 22px;
+}
+#mark{
+    background-color: #ffaa6b;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top :57px;
+}
+.first-item{
+    padding-left: 85px;
+}
+.nav li{
+    margin-right: 30px ;
+    font-size: 19px;
+    text-decoration-line: none;
+    font-family:Roboto Regular ;
+
+}
+.nav li :hover{
+    color:#ffaa6b ;
+}
+
+.about{
+    padding-top: 250px;
+    height: 782px;
+}
+.about,.img-about{
+    margin-bottom: 200px;
+}
+.about .content{
+    padding-right: 50px;
+}
+.tit{
+    font-size: 55px;
+    font-family: NoeDisplay Bold ;
+    color: #000000;
+    font-weight:bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.item{
+    font-size: 28px;
+    font-family: NoeDisplay Regular ;
+    color: #858585;
+    /* font-weight: unset; */
+}
+hr{
+    margin-left: 10px;
+    display: inline-block;
+}
+.content{
+    font-size: 26px;
+    color: #858585;
+    font-family: NoeDisplay Regular;
+    line-height: 1.5;
+}
+
+.btn>button{
+    font-family:Roboto Regular ;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: 1px solid #858585;
+    padding: 17px 30px;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.btn>button:hover{
+    color: #ffaa6b;
+    cursor: pointer;
+}
+.img-about{
+    height: 100%;
+    float: left;
+    padding-right:-30px !important ;
+    height: 782px;
+    /* width: 100%; */   
+}
+.rotate{
+    /* margin-top: 30px; */
+    transform: rotate(-90deg);
+    /* background-color: aquamarine; */
+    /* right: 0px;
+    top :0px; */
+    float: right;
+    margin-right: -270px;
+    margin-top: -550px;
+}
+
+.social li{
+    display: inline-block;
+    margin-right: 40px; 
+}
+.social li :hover{
+    color: black;
+}
+.social li>a{
+    text-decoration-line: none;   
+    font-family:Roboto Regular ;
+    color: #858585;
+    font-size: 16px;
+}
+
+.portfolio,.nav2{
+    height: 80px;
+    margin-bottom: 70px;
+}
+.nav2{
+    padding-right: 40px;
+}
+.nav2 li{
+    margin-top: 80px;
+    margin-right: 15px ;
+    display: inline-block;
+}
+.nav2 li>a{
+    text-decoration-line: none;   
+    font-family:Roboto Regular ;
+    color: #858585;
+    font-size: 16px;
+}
+.nav2 li :hover{
+    color:black ;
+}
+
+.images{
+    margin: auto;
+    width: 73%;
+    margin-bottom: 200px;
+}
+.col1,.col2,.col3{
+    display: inline-block;
+}
+.col1{
+    width: 37%;
+    height: 664px;
+}
+.col2,.col3{
+    width: 31%;
+}
+.row{
+    height: 332px;
+}
+.images img{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 9px;
+    padding-left: 3px;
+}
+.blog .content,.blog2 .content{
+    font-size: 19px;
+}
+.blog2 .content{
+    padding-right: 40px;
+}
+
+.date{
+    font-size: 18px;
+    color: #858585;
+    font-family: NoeDisplay Regular;
+    margin-top: 70px;
+}
+.intro{
+    font-size: 50px;
+    font-family: NoeDisplay Bold ;
+    color: #000000;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.more>a{
+    text-decoration-line: none;   
+    font-family:Roboto Regular ;
+    color: #ffaa6b;
+    font-size: 19px;
+}
+.more{
+    margin-top: 30px;
+}
+.blog ,.image-blog{
+    height: 500px;
+    margin-bottom: 50px !important;
+}
+.image-blog img{
+    width: 90%;
+    padding-top: 190px;
+    margin-left: 55px;
+}
+.image-blog2>img{
+    width: 80%; 
+    padding-top: 95px;
+}
+.image-blog2,.blog2{
+    height: 500px;
+}
+.view{
+    text-align: center;
+    margin-bottom: 200px;
+}
+.contact .tit{
+    margin-bottom: 70px;
+}
+.field{
+    font-family:Roboto Regular ;
+    color: #a7a7a7;
+    font-size: 19px;
+    margin-top: 30px;
+}
+.form,textarea{
+    font-size: 22px;
+    padding: 20px;
+    width: 100%;
+    border: 0.5px solid #a7a7a7;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #a7a7a7;
+}
+
+textarea{
+    font-family:Roboto Regular ;
+    height: 209px;
+    resize: none;
+}
+.required{
+    color: #ffaa6b;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.message{
+    margin-top: 312px;
+    padding-left: 40px;
+}
+
+::placeholder {
+    color: #a7a7a7;
+}
+.copyright{
+    padding: 150px 0 80px 0;
+    font-family: Roboto Regular ;
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.contact button{
+    background-color: black;
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.contact .btn >button:hover{
+    background-color: #a7a7a7;
+    color: black;
+}
+
+
+/* 
+
+Font family:
++ Roboto Regular
++ NoeDisplay Regular
++ NoeDisplay Bold
+
+Mã màu:
++ #666666
++ #ffaa6b
++ #000000
+
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Tổng quan đến chi tiết 
+ */
+
+/* 
+1. Vị trí
+2. Kích thước (width, height)
+3. Màu sắc
+4. Kiểu dáng (kiểu chữ, hình tròn vuông...)
+*/
+
